@@ -1,3 +1,3 @@
-## Insertion Sort
+# Insertion Sort
 
 [Insertion Sort (CPP)](./Resource/InsertionSort.cpp)
