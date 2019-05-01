@@ -1,2 +1,2 @@
-A note book about computer vision learning.  
+A notebook about computer vision learning.  
 Start with [Index.md](./Index.md)
