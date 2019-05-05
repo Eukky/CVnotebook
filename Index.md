@@ -15,8 +15,9 @@
 
 - ### Sorting Algorithm
     - [Insertion Sort](./Algorithm/SortingAlgorithm/InsertionSort.md)
+    - [Merge Sort](./Algorithm/SortingAlgorithm/MergeSort.md)
 
-## Image Process
+## Image Processing
 
 - OpenCV
 
