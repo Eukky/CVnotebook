@@ -38,14 +38,34 @@
 
 - Data Structure
   
+  - Linear List
+
+    - [Linked List](./Algorithm/DataStructure/LinkedList.md)
+    - [Stack](./Algorithm/DataStructure/Stack.md)
+    - [Queue](./Algorithm/DataStructure/Queue.md)
+
   - Tree
 
     - [Binary Search Tree](./Algorithm/DataStructure/BinarySearchTree.md)
+    - [N-ary Tree](./Algorithm/DataStructure/NaryTree.md)
+    - [Red-Black Tree](./Algorithm/DataStructure/RedBlackTree.md)
+    - [AVL Tree](./Algorithm/DataStructure/RedBlackTree.md)
+
+- Graph
 
 ## Image Processing
 
 ## Machine Learning
 
-- Principal Components Analysis
+- [Principal Components Analysis](./MachineLearning/PrincipalComponentsAnalysis.md)
 
 ## Deep Learning
+
+- Basic Knowledge
+
+  - [BackPropagation](./DeepLearning/BasicKnowledge/BackPropagation.md)
+
+- Model
+
+  - [GAN](./DeepLearning/Model/GAN.md)
+  - [TecoGAN](./DeepLearning/Model/TecoGAN.md)
