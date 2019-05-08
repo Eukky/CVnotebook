@@ -31,6 +31,11 @@
   - [Heap Sort](./Algorithm/SortingAlgorithm/HeapSort.md)
   - [Bucket Sort](./Algorithm/SortingAlgorithm/BucketSort.md)
 
+- Search Algorithm
+
+  - [Depth-First Search](./Algorithm/SearchAlgorithm/DepthFirstSearch.md)
+  - [Breadth-First Search](./Algorithm/SearchAlgorithm/BreadthFirstSearch.md)
+
 - Data Structure
   
   - Tree
