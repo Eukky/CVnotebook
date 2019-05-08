@@ -26,6 +26,6 @@ A non-recursive implementation of DFS with worst-case space complexity O(|E|)
 5          v = S.pop()
 6          if v is not labeled as discovered:
 7              label v as discovered
-8              for all edges from v to w in G.adjacentEdges(v) do 
+8              for all edges from v to w in G.adjacentEdges(v) do
 9                  S.push(w)
 ```
