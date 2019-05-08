@@ -35,7 +35,7 @@
   
   - Tree
 
-    - Binary Tree
+    - [Binary Search Tree](./Algorithm/DataStructure/BinarySearchTree.md)
 
 ## Image Processing
 
