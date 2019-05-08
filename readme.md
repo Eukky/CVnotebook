@@ -9,4 +9,4 @@ Q: Why not Chinese?
 A: The notebook is built for helping me get used to expressing in English.
 
 Q: Why are there some things are not particularly relevant to computer vision?  
-A: I use this notebook to organize what I have learned and there are some things may be useful in my future computer vision job interview.
+A: I use this notebook to organize what I have learned and there may some things are useful in my future computer vision job interview.
