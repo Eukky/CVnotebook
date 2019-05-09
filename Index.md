@@ -12,6 +12,14 @@
 
 - Tensorflow
 
+## Math
+
+- Statistics
+
+- Matrix
+
+  - [Covariance Matrix](./Math/Matrix/CovarianceMatrix.md)
+
 ## Algotithm
 
 - Algorithm Analysis
@@ -49,9 +57,9 @@
     - [Binary Search Tree](./Algorithm/DataStructure/BinarySearchTree.md)
     - [N-ary Tree](./Algorithm/DataStructure/NaryTree.md)
     - [Red-Black Tree](./Algorithm/DataStructure/RedBlackTree.md)
-    - [AVL Tree](./Algorithm/DataStructure/RedBlackTree.md)
+    - [AVL Tree](./Algorithm/DataStructure/AVLTree.md)
 
-- Graph
+  - Graph
 
 ## Image Processing
 
@@ -64,6 +72,7 @@
 - Basic Knowledge
 
   - [BackPropagation](./DeepLearning/BasicKnowledge/BackPropagation.md)
+  - [Gradient Descent](./DeepLearning/BasicKnowledge/GradientDescent.md)
 
 - Model
 

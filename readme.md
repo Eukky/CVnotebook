@@ -10,3 +10,9 @@ A: The notebook is built for helping me get used to expressing in English.
 
 Q: Why are there some things are not particularly relevant to computer vision?  
 A: I use this notebook to organize what I have learned and there may some things are useful in my future computer vision job interview.
+
+## References
+
+1. Deep Learning Book
+2. Introduction to Algorithms
+3. WikiPeida
