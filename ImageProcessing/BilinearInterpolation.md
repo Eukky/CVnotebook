@@ -12,7 +12,7 @@ Althouth each step is linear in the sampled values and in the position, the inte
 
 Suppose that we want to find the unknow funcition f at the point (x, y). It is assumed that we know the value of f at the for points $Q_{11}=(x_1,y_1)$, $Q_{12}=(x_1,y_2)$, $Q_{21}=(x_2,y_1)$, and $Q_{22}=(x_2,y_2)$.
 
-![bilinear](./Resource/bilinearinterpolation.png)
+![bilinearinterpolation](./Resource/bilinearinterpolation.png)
 
 1. Do linear interpolation in the x-direction.
    $$ f(x,y_1)\approx\frac{x_2-x}{x_2-x_1}f(Q_{11})+\frac{x-x_1}{x_2-x_1}f(Q_{21}) $$
