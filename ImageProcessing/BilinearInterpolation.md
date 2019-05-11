@@ -20,7 +20,7 @@ Suppose that we want to find the unknow funcition f at the point (x, y). It is a
 2. Do linear interpolation in the y-direciton.
    $$ f(x,y)\approx\frac{y_2-y}{y_2-y_1}f(x,y_1)+\frac{y-y_1}{y_2-y_1}f(x,y_2) $$
    $$ =\frac{1}{(x_2-x_1)(y_2-y_1)}\left[\begin{matrix}x_2-x&x-x_1\end{matrix}\right]
-   \left[\begin{matrix}f(Q_{11})&f(Q_{12}\\f(Q_{21})&f(Q_{22})\end{matrix}\right]
+   \left[\begin{matrix}f(Q_{11})&f(Q_{12})\\f(Q_{21})&f(Q_{22})\end{matrix}\right]
    \left[\begin{matrix}y_2-y\\y-y_1\end{matrix}\right]$$
 
 If we choose a coordinate system in which the for points where f is known are (0,0), (0,1), (1,0), (1,1), then the interpolation formula simplifies to
