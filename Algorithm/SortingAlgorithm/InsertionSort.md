@@ -34,4 +34,4 @@ end while
 
 ## Example
 
-[Insertion Sort (CPP)](./Resource/InsertionSort.cpp)
+[Insertion Sort (CPP)](./SourceCode/InsertionSort.cpp)

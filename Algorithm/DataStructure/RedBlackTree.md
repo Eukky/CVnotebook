@@ -5,13 +5,9 @@
 In addition to the requirements imposed on a binary search Tree, the following must be satisfied by a red-black tree:
 
 1. Each node is either red or black.
-
 2. The root is black.
-
 3. All leaves(NIL) are black
-
 4. If node is red then both its childern are black.
-
 5. Every path from a given node to any of its descendant NIL nodes contains the same number of black nodes.
 
 ## Operations
@@ -53,7 +49,6 @@ RIGHT-ROTATE(T, y)
 - Insert
 
 1. Add the node in a similar manner as a standard binary search tree insertion and color it red.
-
 2. Fix up the red-black tree by series of operation such as rotation or coloring.
 
 ```pseudocode
@@ -100,7 +95,6 @@ RB-INSERT-FIXUP(T, z)
 - Remove
 
 1. Remove the node in a similar manner as a standard binary search tree removing.
-
 2. Fix up the red-black tree by series of operation such as rotation or coloring.
 
 ```pseudocode

@@ -63,6 +63,10 @@
 
 ## Image Processing
 
+- [Nearest-neighbor interpolation](./ImageProcessing/NearestNeighborInterpolation.md)
+- [Bilinear Interpolation](./ImageProcessing/BilinearInterpolation.md)
+- [Bicubic Interpolation](./ImageProcessing/BicubicInterpolation.md)
+
 ## Machine Learning
 
 - [Principal Components Analysis](./MachineLearning/PrincipalComponentsAnalysis.md)
@@ -76,5 +80,13 @@
 
 - Model
 
-  - [GAN](./DeepLearning/Model/GAN.md)
-  - [TecoGAN](./DeepLearning/Model/TecoGAN.md)
+  - Basic Networks
+
+    - [GAN](./DeepLearning/Model/GAN.md)
+    - [Autoencoder](./DeepLearning/Model/Autoencoder.md)
+
+  - Super-Resolution
+
+    - [VSR](./DeepLearning/Model/VSR.md)
+    - [ESRGAN](./DeepLearning/Model/ESRGAN.md)
+    - [TecoGAN](./DeepLearning/Model/TecoGAN.md)

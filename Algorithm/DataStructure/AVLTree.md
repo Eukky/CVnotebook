@@ -73,7 +73,5 @@ T2   T3                           T3   T4
 Let w be the node to be deleted
 
 1. Perform standard BST delete for w.
-
 2. Starting from w, travel up and find the first unbalanced node. Let z be the first unbalanced node, y be the larger height child of z, and x be the larger height child of y. Note that the definitions of x and y are different from insertion here.
-
 3. Re-balance the tree by performing appropriate rotations on the subtree rooted with z.The 4 cases is the same as insertion.
