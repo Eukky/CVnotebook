@@ -63,7 +63,7 @@
 
 ## Image Processing
 
-- [Nearest-neighbor interpolation](./ImageProcessing/NearestNeighborInterpolation.md)
+- [Nearest-neighbor Interpolation](./ImageProcessing/NearestNeighborInterpolation.md)
 - [Bilinear Interpolation](./ImageProcessing/BilinearInterpolation.md)
 - [Bicubic Interpolation](./ImageProcessing/BicubicInterpolation.md)
 
