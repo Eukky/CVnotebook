@@ -88,5 +88,6 @@
   - Super-Resolution
 
     - [VSR](./DeepLearning/Model/VSR.md)
+    - [SRGAN](./DeepLearning/Model/SRGAN.md)
     - [ESRGAN](./DeepLearning/Model/ESRGAN.md)
     - [TecoGAN](./DeepLearning/Model/TecoGAN.md)
