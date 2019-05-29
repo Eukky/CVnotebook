@@ -44,6 +44,11 @@
   - [Depth-First Search](./Algorithm/SearchAlgorithm/DepthFirstSearch.md)
   - [Breadth-First Search](./Algorithm/SearchAlgorithm/BreadthFirstSearch.md)
 
+- Other Algorithm
+  
+  - [Dynamic Programming](./Algorithm/OtherAlgorithm/DynamicProgramming.md)
+  - [Greedy Algorithm](./Algorithm/OtherAlgorithm/GreedyAlgorithm.md)
+
 - Data Structure
   
   - Linear List
