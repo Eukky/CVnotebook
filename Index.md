@@ -47,6 +47,7 @@
 - Other Algorithm
   
   - [Dynamic Programming](./Algorithm/OtherAlgorithm/DynamicProgramming.md)
+  - [Manacher Algorithm](./Algorithm/OtherAlgorithm/ManacherAlgorithm.md)
   - [Greedy Algorithm](./Algorithm/OtherAlgorithm/GreedyAlgorithm.md)
 
 - Data Structure
