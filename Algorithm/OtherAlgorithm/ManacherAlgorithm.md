@@ -1,3 +1,3 @@
 # Manacher Algorithm
 
-[Manacher Algorithm (CPP)](./SourceCode/ManacherCode.cpp)
+[Manacher Algorithm (CPP)](./SourceCode/ManacherAlgorithm.cpp)
