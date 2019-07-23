@@ -76,6 +76,7 @@
 ## Machine Learning
 
 - [Principal Components Analysis](./MachineLearning/PrincipalComponentsAnalysis.md)
+- [T-Distribution Stochastic Neighbour Embedding](./MachineLearning/TDistributionStochasticNeighbourEmbedding.md)
 
 ## Deep Learning
 
@@ -96,4 +97,3 @@
     - [VSR](./DeepLearning/Model/VSR.md)
     - [SRGAN](./DeepLearning/Model/SRGAN.md)
     - [ESRGAN](./DeepLearning/Model/ESRGAN.md)
-    - [TecoGAN](./DeepLearning/Model/TecoGAN.md)
