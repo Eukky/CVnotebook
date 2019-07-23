@@ -75,8 +75,8 @@
 
 ## Machine Learning
 
-- [Principal Components Analysis](./MachineLearning/PrincipalComponentsAnalysis.md)
-- [T-Distribution Stochastic Neighbour Embedding](./MachineLearning/TDistributionStochasticNeighbourEmbedding.md)
+- [Principal Components Analysis](./MachineLearning/PCA.md)
+- [T-Distribution Stochastic Neighbour Embedding](./MachineLearning/t-SNE.md)
 
 ## Deep Learning
 
