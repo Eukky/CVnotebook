@@ -13,3 +13,6 @@ $$ p_{j|i} = \frac{exp(-{||y_i-y_j||}^2)}{\sum_{k\neq i}exp(-{||y_i-y_k||}^2)} $
 We set $p_{i|i} = 0$ and $q_{i|i} = 0$.
 SNE minimizes the sum of Kullback-Leibler divergences over all datapoints using a gradient descent method. The cost function C is given by
 $$ C=\sum_i KL(P_i||Q_i)=\sum_i \sum_j p_{j|i}log\frac{p_{j|i}}{q_{j|i}} $$
+Any particular value of $\sigma_i$ induces a probability distribution, $P_i$, over all of the other datapoints. This distribution has an entropy which increases as $\sigma_i$ increases. SNE performs a binary search for the value of $\sigma_i$ that produces a $P_i$ with a fixed perplexity that is specified by the user.
+$$ Perp(P_i)=2^{H(P_i)} $$
+$$ H(P_i)=-\sum_j p_{j|i}\log_2 p_{j|i} $$
