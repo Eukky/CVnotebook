@@ -66,3 +66,10 @@ optimization parameters: number of iterations $T$, learning rate $\eta$, momentu
 &emsp;&emsp;&emsp;&emsp;set $Y^{(t)}=Y^{(t-1)}+\eta\frac{\delta C}{\delta y_i}+\alpha(t)(Y^{(t-1)}-Y^{(t-2)})$  
 &emsp;&emsp;**end**  
 **end**
+
+## Optimization Methods for t-SNE
+
+- Early compression  
+  To force the map points to stay close together at the start of the optimization.
+- Early exaggeration  
+  To multiply all of the $p_{ij}$ 4(for example) times in the initial stages of the optimization.  
