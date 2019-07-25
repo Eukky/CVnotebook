@@ -1,17 +1,5 @@
 # Computer Vision Notebook
 
-## Programming Language
-
-- CPP
-
-- Python
-
-## Library
-
-- OpenCV
-
-- Tensorflow
-
 ## Math
 
 - Statistics
