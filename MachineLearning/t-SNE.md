@@ -73,3 +73,8 @@ optimization parameters: number of iterations $T$, learning rate $\eta$, momentu
   To force the map points to stay close together at the start of the optimization.
 - Early exaggeration  
   To multiply all of the $p_{ij}$ 4(for example) times in the initial stages of the optimization.  
+
+
+## Example
+
+[t-sne(python)](./SourceCode/t-sne.py)
