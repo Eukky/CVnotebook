@@ -74,7 +74,6 @@ optimization parameters: number of iterations $T$, learning rate $\eta$, momentu
 - Early exaggeration  
   To multiply all of the $p_{ij}$ 4(for example) times in the initial stages of the optimization.  
 
-
 ## Example
 
 [t-sne(python)](./SourceCode/t-sne.py)
