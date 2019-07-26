@@ -18,14 +18,14 @@
 - Sorting Algorithm
 
   - [Insertion Sort](./Algorithm/SortingAlgorithm/InsertionSort.md)
-  - [Merge Sort](./Algorithm/SortingAlgorithm/MergeSort.md)
-  - [Bubble Sort](./Algorithm/SortingAlgorithm/BubbleSort.md)
-  - [Selection Sort](./Algorithm/SortingAlgorithm/SelectionSort.md)
-  - [Quick Sort](./Algorithm/SortingAlgorithm/QuickSort.md)
-  - [Counting Sort](./Algorithm/SortingAlgorithm/CountingSort.md)
-  - [Radix Sort](./Algorithm/SortingAlgorithm/RadixSort.md)
-  - [Heap Sort](./Algorithm/SortingAlgorithm/HeapSort.md)
-  - [Bucket Sort](./Algorithm/SortingAlgorithm/BucketSort.md)
+  - [Merge Sort](./Algorithm/SortingAlgorithm/MergeSort.md)(X)
+  - [Bubble Sort](./Algorithm/SortingAlgorithm/BubbleSort.md)(X)
+  - [Selection Sort](./Algorithm/SortingAlgorithm/SelectionSort.md)(X)
+  - [Quick Sort](./Algorithm/SortingAlgorithm/QuickSort.md)(X)
+  - [Counting Sort](./Algorithm/SortingAlgorithm/CountingSort.md)(X)
+  - [Radix Sort](./Algorithm/SortingAlgorithm/RadixSort.md)(X)
+  - [Heap Sort](./Algorithm/SortingAlgorithm/HeapSort.md)(X)
+  - [Bucket Sort](./Algorithm/SortingAlgorithm/BucketSort.md)(X)
 
 - Search Algorithm
 
@@ -34,17 +34,17 @@
 
 - Other Algorithm
   
-  - [Dynamic Programming](./Algorithm/OtherAlgorithm/DynamicProgramming.md)
-  - [Manacher Algorithm](./Algorithm/OtherAlgorithm/ManacherAlgorithm.md)
-  - [Greedy Algorithm](./Algorithm/OtherAlgorithm/GreedyAlgorithm.md)
+  - [Dynamic Programming](./Algorithm/OtherAlgorithm/DynamicProgramming.md)(X)
+  - [Manacher Algorithm](./Algorithm/OtherAlgorithm/ManacherAlgorithm.md)(X)
+  - [Greedy Algorithm](./Algorithm/OtherAlgorithm/GreedyAlgorithm.md)(X)
 
 - Data Structure
   
   - Linear List
 
     - [Linked List](./Algorithm/DataStructure/LinkedList.md)
-    - [Stack](./Algorithm/DataStructure/Stack.md)
-    - [Queue](./Algorithm/DataStructure/Queue.md)
+    - [Stack](./Algorithm/DataStructure/Stack.md)(X)
+    - [Queue](./Algorithm/DataStructure/Queue.md)(X)
 
   - Tree
 
@@ -57,7 +57,7 @@
 
 ## Image Processing
 
-- [Nearest-neighbor Interpolation](./ImageProcessing/NearestNeighborInterpolation.md)
+- [Nearest-neighbor Interpolation](./ImageProcessing/NearestNeighborInterpolation.md)(X)
 - [Bilinear Interpolation](./ImageProcessing/BilinearInterpolation.md)
 - [Bicubic Interpolation](./ImageProcessing/BicubicInterpolation.md)
 
@@ -70,18 +70,18 @@
 
 - Basic Knowledge
 
-  - [BackPropagation](./DeepLearning/BasicKnowledge/BackPropagation.md)
-  - [Gradient Descent](./DeepLearning/BasicKnowledge/GradientDescent.md)
+  - [BackPropagation](./DeepLearning/BasicKnowledge/BackPropagation.md)(X)
+  - [Gradient Descent](./DeepLearning/BasicKnowledge/GradientDescent.md)(X)
 
 - Model
 
   - Basic Networks
 
-    - [GAN](./DeepLearning/Model/GAN.md)
-    - [Autoencoder](./DeepLearning/Model/Autoencoder.md)
+    - [GAN](./DeepLearning/Model/GAN.md)(X)
+    - [Autoencoder](./DeepLearning/Model/Autoencoder.md)(X)
 
   - Super-Resolution
 
-    - [VSR](./DeepLearning/Model/VSR.md)
-    - [SRGAN](./DeepLearning/Model/SRGAN.md)
-    - [ESRGAN](./DeepLearning/Model/ESRGAN.md)
+    - [VSR](./DeepLearning/Model/VSR.md)(X)
+    - [SRGAN](./DeepLearning/Model/SRGAN.md)(X)
+    - [ESRGAN](./DeepLearning/Model/ESRGAN.md)(X)
