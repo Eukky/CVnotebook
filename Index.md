@@ -70,7 +70,7 @@
 
 - Basic Knowledge
 
-  - [BackPropagation](./DeepLearning/BasicKnowledge/BackPropagation.md)(X)
+  - [Back Propagation](./DeepLearning/BasicKnowledge/BackPropagation.md)(X)
   - [Gradient Descent](./DeepLearning/BasicKnowledge/GradientDescent.md)(X)
 
 - Model
