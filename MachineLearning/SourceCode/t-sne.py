@@ -28,10 +28,10 @@ def softmax(X, diag_zero=True):
     计算矩阵X的softmax函数
     """
 
-    #不知道为什么要减去最大值，论文中的公式只是直接计算了距离
+    # 不知道为什么要减去最大值，论文中的公式只是直接计算了距离
     e_x = np.exp(X - np.max(X, axis=1).reshape([-1, 1]))
 
-    #将对角元素设置为0，是考虑了p_i|j=0的情况
+    # 将对角元素设置为0，是考虑了p_i|j=0的情况
     if diag_zero:
         np.fill_diagonal(e_x, 0.)
     
@@ -107,7 +107,7 @@ def find_optimal_sigmas(distances, target_perplexity):
     """
 
     sigmas = []
-    #遍历距离矩阵中的每一行(代表每个数据点)
+    # 遍历距离矩阵中的每一行(代表每个数据点)
     for i in range(distances.shape[0]):
         eval_fn = lambda sigma: perplexity(distances[i, :], np.array(sigma))
         correct_sigma = binary_search(eval_fn, target_perplexity)
@@ -121,10 +121,10 @@ def q_joint(Y):
     该函数用于计算对称SNE重的q概率矩阵
     """
 
-    #计算距离
+    # 计算距离
     distances = neg_squared_euc_dist(Y)
     
-    #同样是使用softmax函数计算出q_ij，与之前的softmax不同的是这次分母计算的是整个矩阵的和而不是每一行的和
+    # 同样是使用softmax函数计算出q_ij，与之前的softmax不同的是这次分母计算的是整个矩阵的和而不是每一行的和
     exp_distances = np.exp(distances)
     np.fill_diagonal(exp_distances, 0.)
     return exp_distances / np.sum(exp_distances, None)
@@ -162,13 +162,13 @@ def symmetric_sne_grad(P, Q, Y):
     最后返回的grad为Nx2矩阵，第i行表示dC/dy_i
     """
 
-    #矩阵形状为NxN
+    # 矩阵形状为NxN
     pq_diff = P - Q
-    #将矩阵形状变为NxNx1
+    # 将矩阵形状变为NxNx1
     pq_expanded = np.expand_dims(pq_diff, 2)
-    #矩阵形状为NxNx2
+    # 矩阵形状为NxNx2
     y_diff = np.expand_dims(Y, 1) - np.expand_dims(Y, 0)
-    #矩阵形状为Nx2
+    # 矩阵形状为Nx2
     grad = 4. * (pq_expanded * y_diff).sum(1)
     return grad
 
@@ -217,33 +217,33 @@ def estimate_sne(X, y, P, rng, num_iters, q_fn, grad_fn, learning_rate, momentum
         Y: Matrix, low-dimensional representation of X.
     """
 
-    #初始化Y矩阵
+    # 初始化Y矩阵
     Y = rng.normal(0., 0.0001, [X.shape[0], 2])
 
-    #初始化过去值，用于生成动量
+    # 初始化过去值，用于生成动量
     if momentum:
         Y_m2 = Y.copy()
         Y_m1 = Y.copy()
 
-    #梯度下降循环
+    # 梯度下降循环
     for i in range(num_iters):
 
         #t-sne
         Q, distances = q_fn(Y)
         grads = grad_fn(P, Q, Y, distances)
 
-        #symmetric sne
+        # symmetric sne
         # Q = q_fn(Y)
         # grads = grad_fn(P, Q, Y)
 
-        #更新Y
+        # 更新Y
         Y = Y - learning_rate * grads
         if momentum:
             Y += momentum * (Y_m1 - Y_m2)
             Y_m2 = Y_m1.copy()
             Y_m1 = Y.copy()
 
-        #绘图
+        # 绘图
         if plot and i % (num_iters / plot) == 0:
             categorical_scatter_2d(Y, y, alpha=1.0, ms=6, show=True, figsize=(9, 6))
 
@@ -258,7 +258,7 @@ SEED = 1                    # Random seed
 MOMENTUM = 0.9
 LEARNING_RATE = 10.
 NUM_ITERS = 500             # Num iterations to train for
-TSNE = True               # If False, Symmetric SNE
+TSNE = True                 # If False, Symmetric SNE
 NUM_PLOTS = 5               # Num. times to plot in training
 
 def main():

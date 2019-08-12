@@ -70,6 +70,7 @@
 
 - Basic Knowledge
 
+  - [Logistic Regression](./DeepLearning/BasicKnowledge/LogisticRegression.md)
   - [Back Propagation](./DeepLearning/BasicKnowledge/BackPropagation.md)(X)
   - [Gradient Descent](./DeepLearning/BasicKnowledge/GradientDescent.md)(X)
 
