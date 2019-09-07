@@ -67,7 +67,7 @@ void Inorder(TreeNode* root) {
 ## Preorder Traversal
 
 ```cpp
-void Inorder(TreeNode* root) {
+void Preorder(TreeNode* root) {
     if(root == NULL) {
         return NULL;
     }
